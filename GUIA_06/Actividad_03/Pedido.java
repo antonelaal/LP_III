@@ -77,9 +77,9 @@ public class Pedido {
     public String toString() {
         String emoji = "";
         switch (estado) {
-            case "PENDIENTE": emoji = "⏳"; break;
-            case "COMPLETADO": emoji = "✅"; break;
-            case "ELIMINADO": emoji = "🗑️"; break;
+            case "PENDIENTE":  break;
+            case "COMPLETADO":  break;
+            case "ELIMINADO":  break;
         }
         return nombrePlato + " (" + tipoPlato + ") " + emoji + " - " + estado;
     }
